@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jacob's Portfolio</title>
+    <style>
+        body {
+            background-color: rgba(155, 147, 147, 0.943);
+            background-size: contain;
+        }
+
+        body {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+        }
+
+        .initialRectangle {
+            height: 500px;
+            width: 500px;
+            background-image: url('IMG_2770.jpg');
+            border-radius: 20px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            padding: 100px;
+            opacity: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border: 2px solid black;
+        }
+
+        #titleOfPortfolio {
+            padding: 50px;
+            bottom: 150px;
+            left: -30px;
+            position: absolute;
+            font-size: 60px;
+            font-weight: bold;
+            color: black !important;
+        }
+
+        #moreInfo {
+            bottom: 150px;
+            position: absolute;
+            left: 10px;
+        }
+
+        #linkToYoutube, #moreInfo, #titleOfPortfolio, #linkToYoutube, #linkToInstagram {
+            color: white;
+            background-color: transparent;
+        }
+
+        #linkToYoutube, #linkToInstagram {
+            position: absolute;
+            top: 80px; /* Adjust as needed */
+            color: white;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        #linkToYoutube {
+            left: 400px; /* Position on the top left */
+        }
+
+        #linkToInstagram {
+            right: 400px; /* Position on the top right */
+        }
+
+        #linkToYoutube:hover, #linkToInstagram:hover {
+            color: antiquewhite;
+        }
+
+        .aboutMeBlurb {
+            height: 400px;
+            width: 700px;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: absolute;
+            top: 750px;
+            padding: 10px;
+            position: absolute;
+        
+        }
+
+        #aboutMeText {
+            padding: 5px;
+        }
+
+        .projectsWorkingOn{
+            position: absolute;
+            top: 1400px;
+        }
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="initialRectangle">
+        <div class="linksToOtherThings">
+            <a href="https://youtube.com" target="_blank"><p id="linkToYoutube">Youtube</p></a>
+            <a href="https://instagram.com" target="_blank"><p id="linkToInstagram">Instagram</p></a>
+        </div>
+        <h1 id="titleOfPortfolio">Jacob's Portfolio</h1>
+        <h2 id="moreInfo">LA resident - creator of mode to code - full stack developer</h2>
+    </div>
+    <div class="aboutMeBlurb">
+        <h2>About Me</h2>
+        <p id="aboutMeText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum possimus voluptas similique tempore nobis, rerum assumenda ipsum at, omnis accusamus quod nostrum voluptatibus rem repellendus sequi saepe praesentium fugiat maxime minima adipisci laboriosam cumque? Quasi modi consequuntur atque hic necessitatibus voluptas quo quod laboriosam maxime id, earum facere veritatis numquam blanditiis culpa voluptates, obcaecati accusantium dolorem saepe praesentium! Omnis, ex facilis quibusdam, deserunt nostrum laborum quos ipsam culpa repellat tempore ducimus. Animi perferendis laborum quos qui modi? Provident nesciunt doloribus, quas aliquam quae laborum impedit sed obcaecati repellendus, dolorum vel numquam consequatur atque ea voluptates dolores? Enim, rerum assumenda et laborum necessitatibus, saepe architecto non quos omnis, hic eveniet quas maiores animi voluptatibus sapiente officiis deserunt? Magni molestias ipsam labore nesciunt necessitatibus error tempore debitis non corporis odio doloremque fugiat at soluta, iure dolore. Ullam sed similique voluptas asperiores? Ea explicabo optio molestiae distinctio corrupti maiores quia, porro libero quos eos expedita corporis obcaecati dignissimos quisquam quas quasi amet beatae ipsum eveniet! Repudiandae non quod quas magni ipsam corrupti fugiat rerum vitae iusto velit, voluptatem fuga, facere autem sequi sit officia cum ipsa assumenda? Officia quaerat beatae saepe. Magni cumque omnis mollitia nulla? Amet, vel rem dolor aliquam alias possimus!</p>
+    </div>
+
+    <div class="projectsWorkingOn">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab non, velit molestiae fuga quas voluptatem eius dicta qui quo eligendi.</p>
+    </div>
+</body>
+</html>
